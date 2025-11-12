@@ -1,0 +1,162 @@
+/* 🎨 Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #fff7cc, #ffd6e0, #d9ecff);
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #e77b7b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: #ffd2a5;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+}
+
+table td {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+table tr:hover {
+  background-color: #fff5ec;
+}
+
+/* 🐶 Botones */
+button, a.button {
+  display: inline-block;
+  background-color: #f58c8c;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover, a.button:hover {
+  background-color: #d95c5c;
+}
+
+a.button.add {
+  background-color: #7cd47c;
+}
+
+a.button.add:hover {
+  background-color: #5fb65f;
+}
+
+a.button.edit {
+  background-color: #ffb74d;
+}
+
+a.button.edit:hover {
+  background-color: #e49b24;
+}
+
+a.button.view {
+  background-color: #64b5f6;
+}
+
+a.button.view:hover {
+  background-color: #4a9de0;
+}
+
+a.button.delete {
+  background-color: #e57373;
+}
+
+a.button.delete:hover {
+  background-color: #d32f2f;
+}
+
+/* 📋 Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #7cd47c;
+}
+
+.submit-btn:hover {
+  background-color: #5fb65f;
+}
+
+/* 🐾 Páginas de crear/editar perro */
+.page-container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.page-title {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Botón eliminar */
+.btn-delete {
+  background-color: #e85c5c;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #d03b3b;
+}
