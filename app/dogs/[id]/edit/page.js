@@ -3,7 +3,6 @@ import DogForm from '../../../../components/DogForm'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-
 export default function EditDog({ params }) {
   const { id } = params
   const router = useRouter()
